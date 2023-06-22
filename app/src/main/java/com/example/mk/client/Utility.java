@@ -7,7 +7,7 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class Utility {
-    final static String base_url = "http://192.168.144.154:3000/";
+    final static String base_url = "https://contact-api-swart.vercel.app/";
     private static final String PREFERENCE_FILE_KEY = Utility.class.getPackage().getName();
     static Retrofit retrofit = null;
     public static Retrofit getClient(){
